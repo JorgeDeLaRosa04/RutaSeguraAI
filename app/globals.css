@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.25);
+}
+
+button, input, select {
+  font: inherit;
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-slate-900/80 border border-slate-700/70 shadow-[0_20px_60px_-20px_rgba(15,23,42,0.75)];
+  }
+}
