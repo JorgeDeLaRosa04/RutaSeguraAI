@@ -2,11 +2,9 @@ import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { blogPosts } from '../blogPosts';
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
+type Props = {
+  params: Promise<{ slug: string }>;
+};
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -14,17 +12,19 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: PageProps) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
-  
+export async function generateMetadata({ params }: Props) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.slug === slug);
+
   return {
     title: post?.title || 'Blog Post',
     description: post?.summary || '',
   };
 }
 
-export default function BlogPostPage({ params }: PageProps) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
+export default async function BlogPostPage({ params }: Props) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
     return (
