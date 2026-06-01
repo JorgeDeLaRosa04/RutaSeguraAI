@@ -16,12 +16,26 @@ export default function BlogPage() {
       <div className="grid gap-6 lg:grid-cols-3">
         {blogPosts.map((post) => (
           <article key={post.id} className="glass-panel overflow-hidden rounded-3xl">
-            <div className="h-48 bg-gradient-to-br from-slate-900 via-slate-800 to-night p-6">
-              <div className="inline-flex items-center gap-3 rounded-3xl bg-slate-950/80 px-4 py-3 text-slate-200">
-                <Sparkles className="h-5 w-5 text-safe" />
-                <span>Seguridad</span>
+            {post.id === '1' ? (
+              <div className="h-48 w-full relative">
+                <img src={`/images/blog${post.id}_1.png`} alt="Portada" className="absolute inset-0 w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-br from-transparent to-night opacity-60" />
+                <div className="p-6 relative z-10 flex items-start">
+                  <div className="inline-flex items-center gap-3 rounded-3xl bg-slate-950/80 px-4 py-3 text-slate-200">
+                    <Sparkles className="h-5 w-5 text-safe" />
+                    <span>Seguridad</span>
+                  </div>
+                </div>
               </div>
-            </div>
+            ) : (
+              <div className="h-48 bg-gradient-to-br from-slate-900 via-slate-800 to-night p-6">
+                <div className="inline-flex items-center gap-3 rounded-3xl bg-slate-950/80 px-4 py-3 text-slate-200">
+                  <Sparkles className="h-5 w-5 text-safe" />
+                  <span>Seguridad</span>
+                </div>
+              </div>
+            )}
+
             <div className="space-y-4 p-6">
               <h2 className="text-2xl font-semibold text-white">{post.title}</h2>
               <p className="text-slate-300">{post.summary}</p>

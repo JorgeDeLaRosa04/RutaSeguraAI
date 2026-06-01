@@ -1,6 +1,8 @@
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { blogPosts } from '../blogPosts';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -49,14 +51,27 @@ export default async function BlogPostPage({ params }: Props) {
       </Link>
 
       <article className="glass-panel rounded-3xl overflow-hidden">
-        <div className="h-64 bg-gradient-to-br from-slate-900 via-slate-800 to-night p-6 flex items-end">
-          <div>
-            <div className="inline-flex items-center gap-3 rounded-3xl bg-slate-950/80 px-4 py-3 text-slate-200 mb-4">
-              <span className="text-safe">🔒</span>
-              <span>Seguridad</span>
+        {post.id === '1' ? (
+          <div className="h-64 relative">
+            <img src={`/images/blog${post.id}_1.png`} alt="Portada" className="absolute inset-0 w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-br from-transparent to-night opacity-60" />
+            <div className="p-6 flex items-end relative z-10">
+              <div className="inline-flex items-center gap-3 rounded-3xl bg-slate-950/80 px-4 py-3 text-slate-200 mb-4">
+                <span className="text-safe">🔒</span>
+                <span>Seguridad</span>
+              </div>
             </div>
           </div>
-        </div>
+        ) : (
+          <div className="h-64 bg-gradient-to-br from-slate-900 via-slate-800 to-night p-6 flex items-end">
+            <div>
+              <div className="inline-flex items-center gap-3 rounded-3xl bg-slate-950/80 px-4 py-3 text-slate-200 mb-4">
+                <span className="text-safe">🔒</span>
+                <span>Seguridad</span>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="p-8 sm:p-12 space-y-6">
           <div className="space-y-4">
@@ -65,40 +80,24 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
 
           <div className="border-t border-slate-700 pt-8">
-            <div className="prose prose-invert max-w-none">
-              {post.content.split('\n\n').map((paragraph, index) => {
-                if (paragraph.startsWith('**') && paragraph.endsWith(':**')) {
-                  return (
-                    <h2 key={index} className="text-2xl font-semibold text-white mt-6 mb-4">
-                      {paragraph.replace(/\*\*/g, '')}
-                    </h2>
-                  );
-                }
-                if (paragraph.startsWith('-')) {
-                  return (
-                    <ul key={index} className="list-disc list-inside space-y-2 text-slate-300 mb-4">
-                      {paragraph.split('\n').map((item, i) => (
-                        <li key={i} className="ml-2">{item.replace('- ', '')}</li>
-                      ))}
-                    </ul>
-                  );
-                }
-                if (paragraph.match(/^\d+\./)) {
-                  return (
-                    <ol key={index} className="list-decimal list-inside space-y-2 text-slate-300 mb-4">
-                      {paragraph.split('\n').map((item, i) => (
-                        <li key={i} className="ml-2">{item.replace(/^\d+\.\s?/, '')}</li>
-                      ))}
-                    </ol>
-                  );
-                }
-                return (
-                  <p key={index} className="text-slate-300 leading-relaxed mb-4">
-                    {paragraph}
-                  </p>
-                );
-              })}
+            <div className="prose prose-invert max-w-none text-white">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
             </div>
+
+            {post.id === '1' && (
+              <div className="mt-8 space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <img src="/images/blog1_2.png" alt="Imagen 1" className="w-full h-56 object-cover rounded-lg" />
+                  <img src="/images/blog1_3.png" alt="Imagen 2" className="w-full h-56 object-cover rounded-lg" />
+                </div>
+
+                <div className="pt-4">
+                  <Link href="/score" className="inline-flex items-center gap-2 px-6 py-3 bg-safe text-black rounded-lg font-semibold hover:bg-emerald-400">
+                    Ir al Score de Seguridad
+                  </Link>
+                </div>
+              </div>
+            )}
           </div>
 
           <div className="border-t border-slate-700 pt-8">

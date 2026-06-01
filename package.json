@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "lucide-react": "^0.473.0",
+    "react-markdown": "^8.0.5",
+    "remark-gfm": "^3.0.1",
     "next": "^15.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
