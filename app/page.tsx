@@ -1,4 +1,5 @@
 import { ArrowRight, ShieldAlert, ShieldCheck, Sparkles } from 'lucide-react';
+import { Chatbot } from './components/Chatbot';
 
 export default function HomePage() {
   return (
@@ -113,6 +114,7 @@ export default function HomePage() {
           La mayoría de los conductores desean una solución práctica y accesible, no solo una promesa. Ruta Segura AI habla el mismo idioma de tus riesgos y tus rutas.
         </p>
       </section>
+      <Chatbot />
     </div>
   );
 }
