@@ -67,145 +67,153 @@ No tienes que adivinarlo. En **Ruta Segura AI** hemos diseñado un **Test Gratui
 Porque ningún conductor debería elegir entre generar ingresos… o llegar sano y salvo a casa. Estamos contigo, en cada kilómetro.`,
   },
   {
-    id: '2',
-    slug: 'evitar-asaltos-noche',
-    title: 'Cómo evitar asaltos: Guía para conductores nocturnos',
-    summary: 'Consejos prácticos y pasos concretos para mantenerse alerta y más seguro durante el turno.',
-    content: `La seguridad nocturna requiere protocolos específicos. Aquí encontrarás estrategias comprobadas para minimizar riesgos.
+  id: '2', 
+  slug: 'guia-prevencion-conductores-nocturnos',
+  title: 'Cómo evitar asaltos: Guía para conductores nocturnos',
+  summary: 'Consejos prácticos para mantenerse alerta, reducir riesgos y conducir con mayor seguridad durante la noche.',
+  content: `Sabemos que trabajar de noche no es fácil. Cada carrera representa una oportunidad para generar ingresos, pero también exige estar más atento al entorno, a la ruta y al comportamiento de los pasajeros. Para muchos conductores de taxi y delivery, la noche puede ser más rentable, pero también más incierta.
 
-**Protocolos antes del turno:**
-- Verifica que tu vehículo esté en buen estado
-- Llena el tanque de gasolina
-- Confirma tu ubicación GPS
-- Comunica a alguien dónde trabajarás
-- Lleva documentos al día
+En Ruta Segura AI creemos que la seguridad empieza antes de encender el motor. No se trata de manejar con miedo, sino de aprender a identificar señales de riesgo y tomar decisiones más inteligentes en cada trayecto.
 
-**Durante el viaje:**
-- Mantén puertas con seguro
-- Baja cristales parcialmente
-- No transportes dinero en efectivo (ofrece transferencia)
-- Observa a los pasajeros antes de subir
-- Confía en tu instinto
-- Mantén rutas bien iluminadas
-- Evita conversar temas políticos o sensibles
-- Conoce calles alternas
+A continuación, encontrarás una guía práctica para prevenir situaciones peligrosas, proteger tu vehículo y regresar tranquilo a casa después de cada turno.
 
-**Si algo se pone peligroso:**
-- Avisa a la central
-- Mantén la calma
-- Obedece instrucciones del asaltante
-- La vida es más importante que dinero
-- Memoriza descripción del asaltante
-- Reporta inmediatamente a policía
-- Busca apoyo psicológico si lo necesitas
+**¿Por qué la prevención es clave durante la noche?**
+Durante los turnos nocturnos, las calles suelen estar más vacías, hay menos presencia de personas y algunas zonas tienen poca iluminación. Esto puede aumentar la sensación de inseguridad para los conductores. Sin embargo, muchos riesgos pueden reducirse si se trabaja con planificación y buenos hábitos.
 
-La experiencia y la intuición son tus mejores aliadas.`,
-  },
+La prevención no significa rechazar todos los viajes ni dejar de trabajar. Significa evaluar mejor cada servicio, reconocer situaciones sospechosas y tener un plan de acción antes de que ocurra un problema.
+
+**Estrategias clave de seguridad:**
+
+- **Revisa el origen y destino antes de aceptar un viaje:** Antes de iniciar una carrera, observa bien el punto de recojo y el destino. Si ambos lugares están en zonas poco iluminadas, alejadas o con baja circulación, es recomendable tomar precauciones adicionales. *Recomendación:* Usa aplicaciones de navegación, revisa rutas alternativas y comparte tu ubicación si el trayecto te genera desconfianza.
+- **Evita detenerte en lugares oscuros o aislados:** Una de las situaciones más riesgosas para un conductor es esperar en calles solas, esquinas sin iluminación o zonas sin movimiento. Mientras más expuesto esté el vehículo, mayor puede ser el riesgo. *Recomendación:* Si debes esperar, hazlo cerca de grifos, comercios abiertos, avenidas principales o lugares con cámaras de seguridad.
+- **Mantén puertas cerradas y objetos fuera de la vista:** Durante la noche, es importante reducir cualquier oportunidad de robo. Celulares, billeteras, mochilas o dinero visible pueden llamar la atención. *Recomendación:* Mantén tus objetos personales guardados, usa seguros en las puertas y evita contar dinero frente a pasajeros o en plena vía pública.
+- **Confía en tu intuición:** Muchas veces, los conductores detectan señales extrañas antes de que ocurra un problema: pasajeros que cambian varias veces el destino, rutas poco claras, nerviosismo excesivo o pedidos para entrar a calles solas. *Recomendación:* Si algo no se siente bien, busca una zona iluminada, cambia la ruta hacia una avenida principal o cancela el servicio si todavía estás a tiempo.
+- **Comparte tu ubicación con alguien de confianza:** Trabajar solo no significa estar completamente desconectado. Compartir tu ubicación puede ayudar a que tu familia o un compañero sepa por dónde estás conduciendo. *Recomendación:* Activa la ubicación en tiempo real durante tus turnos nocturnos, especialmente si haces viajes largos o ingresas a zonas que no conoces bien.
+- **Ten listo un contacto de emergencia:** En una situación complicada, cada segundo cuenta. Por eso, es importante tener configurados contactos de emergencia en el celular y accesos rápidos para pedir ayuda. *Recomendación:* Guarda números importantes, configura botones de emergencia si tu celular lo permite y mantén la batería siempre cargada.
+- **No te enfrentes directamente ante un intento de robo:** Tu vida vale más que cualquier objeto, celular o ingreso del día. Si te encuentras en una situación de peligro, lo más importante es proteger tu integridad física. *Recomendación:* Mantén la calma, evita discutir y busca ayuda apenas estés en un lugar seguro.
+
+**Más seguridad, menos incertidumbre**
+Conducir de noche siempre tendrá ciertos riesgos, pero la forma en que te preparas puede marcar una gran diferencia. Un conductor informado toma mejores decisiones, evita exponerse innecesariamente y protege mejor su herramienta de trabajo.
+
+La seguridad no depende solo de la suerte. Depende de tus hábitos, de la información que usas y de la red de apoyo que construyes con otros conductores.`,
+},
   {
-    id: '3',
-    slug: 'tecnologia-seguridad',
-    title: 'Tecnología vs. Miedo: Cómo dormir tranquilo después del turno',
-    summary: 'Aprende a usar herramientas digitales para ganar confianza y descanso tras una noche de trabajo.',
-    content: `La tecnología moderna ofrece soluciones que pueden transformar tu experiencia de trabajo nocturno.
+  id: '3', // Puedes cambiar el ID según tu correlativo
+  slug: 'seguridad-dos-ruedas-delivery-nocturno',
+  title: 'Seguridad sobre dos ruedas: Guía esencial para repartidores de delivery en el turno noche',
+  summary: 'Estrategias clave para motorizados sobre cómo mantener la visibilidad, evaluar rutas y proteger su integridad en la noche.',
+  content: `El trabajo de delivery no se detiene cuando el sol se oculta. De hecho, para muchos motorizados, la noche es el momento de mayores ganancias. Sin embargo, rodar en la oscuridad trae consigo retos únicos en las calles de la ciudad. Desde la falta de visibilidad hasta el riesgo de interceptaciones, es vital que tomes medidas para proteger tanto tu integridad como tu herramienta de trabajo.
 
-**Aplicaciones y dispositivos recomendados:**
-- GPS en tiempo real para compartir ubicación con familia
-- Botones de pánico integrados en apps
-- Sistemas de cámara vigilancia (dash cam)
-- Aplicaciones de comunicación con central
-- Alertas de zonas peligrosas en tiempo real
-- Sistemas biométricos de seguridad
+Aquí te dejamos las estrategias esenciales para mantenerte seguro durante tus rutas nocturnas:
 
-**Cómo usar la tecnología eficazmente:**
-1. Mantén batería del teléfono al máximo
-2. Configura compartición de ubicación con familiares
-3. Usa audífonos para escuchar alertas
-4. Registra viajes en apps oficiales
-5. Aprovecha conexión con otros conductores
+- **Hazte ver (La regla de oro):** La oscuridad es tu principal enemigo. Asegúrate de que tu caja de reparto tenga cintas reflectantes de alta visibilidad. Usa una casaca o chaleco reflectivo y verifica siempre que tus luces delanteras y traseras funcionen perfectamente antes de iniciar el turno.
+- **Conoce y filtra tus rutas:** No dependas a ciegas del GPS. Las aplicaciones a veces sugieren el camino más corto, pero no el más seguro. Si la ruta te manda por callejones sin salida, zonas sin iluminación o barrios reportados como peligrosos, es preferible tomar un desvío por avenidas principales, aunque te tome un par de minutos más.
+- **Evalúa el entorno al llegar:** Cuando llegues al punto de entrega, no apagues el motor inmediatamente. Estaciónate en un lugar donde tengas espacio para salir rápido si es necesario. Si la calle está excesivamente oscura o notas grupos de personas sospechosas en las esquinas, aléjate y contacta al cliente para que se acerque a un punto más iluminado.
+- **Comunicación previa con el cliente:** Si un pedido te genera dudas por la zona, envía un mensaje al cliente antes de llegar. Un cliente real y bien intencionado te responderá rápido y te dará indicaciones precisas. Si no hay respuesta o las indicaciones son confusas, es una alerta roja.
 
-**Paz mental después del trabajo:**
-- Mantén ejercicio regular
-- Practica meditación o yoga
-- Establece rutina de descanso
-- Limita uso de pantallas 1 hora antes de dormir
-- Crea ambiente de descanso seguro
-- Conecta con comunidad de taxistas
-- Busca asesoría psicológica si es necesario
-
-La tecnología es tu aliada, pero el autocuidado también es esencial.`,
-  },
+Recuerda: Ningún pedido ni calificación en la app vale más que tu vida o tu motocicleta. Prioriza siempre tu seguridad.`,
+},
   {
-    id: '4',
-    slug: 'mantenimiento-vehiculo-seguro',
-    title: 'Mantenimiento del vehículo: Clave para la seguridad',
-    summary: 'Un auto bien mantenido es tu mejor defensa. Aprende qué revisar regularmente.',
-    content: `El mantenimiento preventivo no solo evita descomposturas, sino que también es crucial para tu seguridad.
+  id: '4', // Puedes cambiar el ID según tu correlativo
+  slug: 'fatiga-volante-turnos-nocturnos',
+  title: 'Fatiga al volante: cómo mantenerse alerta en turnos nocturnos',
+  summary: 'Consejos prácticos para reconocer el cansancio, planificar descansos seguros y mantener la concentración durante la conducción nocturna.',
+  content: `Trabajar de noche puede ser una fuente importante de ingresos para conductores de taxi, delivery y transporte urbano. Sin embargo, manejar durante varias horas seguidas también puede generar cansancio, sueño, pérdida de concentración y menor capacidad de reacción ante cualquier peligro.
 
-**Revisiones semanales:**
-- Estado de frenos
-- Nivel de líquidos
-- Presión de llantas
-- Funcionamiento de luces
-- Limpieza de cristales
-- Estado del cinturón de seguridad
+La fatiga al volante no solo aumenta el riesgo de accidentes, sino que también puede hacer que el conductor tome malas decisiones en zonas inseguras, no detecte señales de peligro o reaccione tarde ante una emergencia.
 
-**Revisiones mensuales:**
-- Cambio de aceite
-- Filtros (aire, gasolina)
-- Amortiguadores
-- Suspensión
-- Dirección
+Por eso, en Ruta Segura AI queremos ayudarte a reconocer las señales de cansancio y aplicar recomendaciones simples para que tus turnos nocturnos sean más seguros.
 
-**Revisiones cada 3 meses:**
-- Batería
-- Sistema eléctrico
-- Tubo de escape
-- Radiador
-- Mangueras
+**1. Reconoce las señales de cansancio**
+Muchas veces el conductor piensa que puede seguir manejando sin problema, pero el cuerpo empieza a mostrar señales de alerta. Algunas de las más comunes son bostezar constantemente, parpadear mucho, sentir los ojos pesados, perder concentración o no recordar bien los últimos metros recorridos. También puede aparecer dolor de cabeza, irritabilidad, lentitud para reaccionar o sensación de estar manejando en “piloto automático”. Si notas varias de estas señales, lo más recomendable es detenerte en un lugar seguro y tomar una pausa.
 
-**Mantenimiento anual:**
-- Revisión técnica obligatoria
-- Alineación de ruedas
-- Verificación de seguro vigente
-- Actualización de documentos
+**2. No ignores el sueño**
+El sueño al volante es un riesgo serio. Aunque parezca que solo cerrarás los ojos por un segundo, ese pequeño descuido puede causar un accidente o exponerte a una situación peligrosa. Durante la noche, el cuerpo naturalmente tiende a descansar. Por eso, si trabajas en horarios nocturnos, es importante organizar tus horas de sueño durante el día y evitar iniciar un turno si ya estás demasiado cansado. Dormir bien antes de trabajar es una medida de prevención tan importante como revisar el vehículo o planificar la ruta.
 
-Un vehículo seguro es un vehículo confiable. Invierte en mantenimiento y protege tu inversión.`,
-  },
-  {
-    id: '5',
-    slug: 'comunicacion-familia',
-    title: 'Cómo comunicarte con tu familia sobre tu seguridad',
-    summary: 'Estrategias para mantener a tus seres queridos tranquilos sin causar angustia.',
-    content: `La comunicación clara es fundamental para mantener la tranquilidad familiar.
+**3. Haz pausas durante el turno**
+Manejar muchas horas sin descanso puede reducir tu atención y aumentar el estrés. Por eso, es recomendable hacer pausas cortas cada cierto tiempo, especialmente si sientes cansancio. Durante la pausa puedes estirarte, caminar unos minutos, tomar agua o respirar profundamente. Lo importante es detenerte en un lugar seguro, iluminado y con movimiento, como un grifo, una avenida principal o una zona comercial abierta. Una pausa de pocos minutos puede ayudarte a recuperar energía y evitar errores en la ruta.
 
-**Preparación previa:**
-- Habla honestamente sobre los riesgos reales
-- Educalos sobre medidas de seguridad
-- Establece protocolos de comunicación
-- Explica los sistemas de emergencia
+**4. Mantente hidratado y evita comidas pesadas**
+La alimentación también influye en tu nivel de energía. Comer demasiado pesado antes o durante el turno puede generar sueño y sensación de lentitud. Es mejor optar por comidas ligeras, frutas, agua o snacks saludables. También es importante mantenerse hidratado, ya que la deshidratación puede causar dolor de cabeza y falta de concentración. El café puede ayudar por momentos, pero no reemplaza el descanso. Si el cansancio es fuerte, lo mejor es parar y dormir.
 
-**Durante tus turnos:**
-- Mensajes de check-in regulares
-- Compartir ubicación en tiempo real
-- Avisar cambios de ruta
-- Confirmar tu seguridad
+**5. Planifica tus zonas de descanso**
+Así como planificas tus rutas de trabajo, también es importante identificar lugares seguros donde puedas detenerte si necesitas descansar. Puedes ubicar grifos, estacionamientos, zonas comerciales, comisarías cercanas o puntos donde haya iluminación y presencia de personas. Evita descansar en calles solas, zonas oscuras o lugares desconocidos. Con Ruta Segura AI, el conductor puede apoyarse en información de seguridad para tomar mejores decisiones durante su turno nocturno.
 
-**Si sucede un incidente:**
-- Comunica inmediatamente
-- Proporciona información clara
-- Busca apoyo médico si es necesario
-- Reporta a autoridades
-- Considera apoyo psicológico familiar
+**6. Mantén el vehículo ventilado**
+Un ambiente cerrado, caliente o con poca ventilación puede aumentar la sensación de sueño. Mantener el vehículo ventilado ayuda a que el conductor se mantenga más despierto y cómodo. También es recomendable ajustar bien el asiento, mantener una postura adecuada y evitar manejar en una posición demasiado relajada, ya que eso puede aumentar la somnolencia. Pequeños cambios en el ambiente del vehículo pueden mejorar tu concentración durante la noche.
 
-**Mantener el balance:**
-- No alarmes innecesariamente
-- Celebra días seguros
-- Participa en vida familiar
-- Crea rituales de bienvenida
-- Escucha preocupaciones de familia
+**7. Usa la tecnología como apoyo**
+La tecnología puede ser una gran aliada para los conductores nocturnos. Aplicaciones como Ruta Segura AI pueden ayudar a identificar zonas de riesgo, recibir alertas y tomar rutas más seguras. Cuando estás cansado, es más fácil equivocarte o entrar por una zona peligrosa sin darte cuenta. Por eso, contar con alertas inteligentes puede ayudarte a mantenerte más atento y reducir riesgos durante el recorrido. La tecnología no reemplaza el descanso, pero sí puede darte información útil para decidir mejor.
 
-La transparencia y la organización generan confianza.`,
-  },
+**8. Prioriza tu seguridad antes que el ingreso**
+Muchos conductores continúan trabajando, aunque estén agotados porque quieren completar más viajes o pedidos. Sin embargo, ningún ingreso vale más que tu vida, tu salud o tu seguridad. Si sientes que ya no puedes manejar con atención, lo mejor es terminar el turno, descansar y continuar cuando estés en mejores condiciones. Un conductor descansado toma mejores decisiones, reacciona más rápido y se protege mejor ante cualquier situación.
+
+En conclusión, la fatiga al volante es uno de los riesgos más comunes durante los turnos nocturnos. Reconocer las señales de cansancio, hacer pausas, descansar bien y usar herramientas digitales puede ayudarte a trabajar con mayor seguridad. Ruta Segura AI busca acompañar a los conductores durante sus recorridos nocturnos, brindando información útil para evitar riesgos y tomar mejores decisiones en la ruta.`,
+},
+{
+  id: '5', // Puedes cambiar el ID según tu correlativo
+  slug: 'el-turno-termina-pero-el-miedo-no',
+  title: 'El turno termina, pero el miedo no',
+  summary: 'Un análisis sobre el impacto emocional del estrés nocturno en los conductores de Lima y cómo la inteligencia artificial ayuda a prevenir situaciones de riesgo.',
+  content: `Son las 2:00 a.m. Carlos acaba de estacionar el auto frente a su casa. Apaga el motor. Mira hacia la puerta. Sus hijos duermen adentro. Pero él no puede dormir todavía. No es el cansancio lo que lo mantiene despierto: es el replay mental de esa calle oscura donde frenó, esa moto que lo siguió tres cuadras, ese pasajero que no quiso pagar y que lo miró diferente al bajar.
+
+Si eres conductor nocturno, sabes exactamente de qué estamos hablando. Y si aún no lo sabes, es porque nadie lo dice en voz alta.
+
+En este artículo hablamos de lo que realmente viven miles de conductores como Carlos cada noche en Lima, y cómo la tecnología —específicamente la inteligencia artificial— puede empezar a cambiar esa realidad.
+
+**1. El conductor nocturno carga con algo que nadie ve**
+Hay una estadística que los titulares no cuentan: por cada asalto reportado a taxistas en Lima, hay al menos 3 situaciones de riesgo que el conductor vivió solo, sin contárselas a nadie. ¿Por qué no las reporta? Siente vergüenza de admitir que tuvo miedo, piensa que la denuncia no servirá de nada, teme que lo tilden de dramático o simplemente no quiere preocupar a su familia.
+
+Ese silencio tiene un costo. Según estudios sobre estrés laboral, más del 60% de conductores nocturnos reporta alteraciones del sueño vinculadas a situaciones de riesgo vividas durante el turno. El cuerpo no olvida aunque la mente intente ignorarlo.
+
+**2. Las zonas de Lima que más tensionan al conductor nocturno**
+No todos los momentos del turno son iguales. Hay calles, horarios y situaciones que activan la alarma interna de cualquier conductor experimentado entre las 10:00 p.m. y las 4:00 a.m.:
+- **Callao (Av. Faucett, Sáenz Peña):** Alta incidencia de robos a mano armada.
+- **San Juan de Lurigancho (zonas periféricas):** Poca iluminación y puntos ciegos frecuentes.
+- **Los Olivos (Av. Universitaria norte):** Presencia de mototaxis y grupos organizados.
+- **Lima Centro (Cercado, Barrios Altos):** Clientes de dudosa procedencia.
+- **Villa El Salvador / Villa María del Triunfo:** Retorno nocturno con rutas únicas sin alternativa.
+
+El problema no es solo saber que esas zonas existen, sino no saber en tiempo real si una ruta está comprometida esa noche específica, a esa hora específica.
+
+**3. Lo que la IA puede hacer que ningún GPS tradicional hace**
+Waze te dice cuánto tardas; Google Maps te dice cómo llegar. Pero ninguno de los dos te dice si esa ruta es segura para ti, esta noche, a las 2:00 a.m. La inteligencia artificial aplicada a la seguridad vial funciona distinto. 
+
+¿Cómo actúa la IA de RutaSegura AI?
+- Analiza patrones históricos de incidencias por zona, hora y día de la semana.
+- Cruza datos en tiempo real con reportes de la comunidad de conductores.
+- Calcula un Score de Riesgo dinámico para cada ruta antes de que la tomes.
+- Sugiere rutas alternativas seguras con solo un toque.
+- Activa alertas preventivas cuando detecta concentración de riesgo en tu zona.
+
+No es magia: es análisis de datos que protege antes de que ocurra lo peor.
+
+**4. Señales de que el estrés nocturno ya te está afectando**
+El cuerpo habla aunque intentemos callarlo. Estas son señales reales de estrés acumulado en el turno nocturno:
+- Te cuesta conciliar el sueño aunque estés agotado.
+- Revives mentalmente situaciones peligrosas al cerrar los ojos.
+- Sientes que cada noche puede ser "esa noche".
+- Llegas a casa irritable, aunque el turno no haya sido tan malo.
+- Evitas ciertas zonas aunque sean las más rentables.
+- No le cuentas a tu pareja lo que realmente vives en las calles.
+
+Si reconoces más de 3 de estas señales, el problema ya no es solo de seguridad vial: es de salud mental, y mereces herramientas que lo tomen en serio.
+
+**5. Estrategias reales para reducir el miedo nocturno (más allá de la tecnología)**
+La tecnología ayuda, pero también hay prácticas que los conductores más experimentados de Lima recomiendan:
+- Compartir la ubicación en tiempo real con un familiar durante el turno.
+- Establecer rutas conocidas y seguras para el retorno después de la medianoche.
+- Confiar en la red de conductores: los grupos de WhatsApp zonales salvan vidas.
+- Tener el botón SOS configurado antes de salir, no cuando ya lo necesitas.
+- Conocer los puntos de Serenazgo más cercanos a tus rutas habituales.
+- Reportar incidencias: cada reporte que compartes protege a otro compañero.
+
+**6. El costo real de trabajar sin seguridad**
+No hablamos solo del riesgo físico, sino del costo invisible: días de trabajo perdidos por recuperación emocional tras un asalto, gastos médicos por condiciones relacionadas al estrés (hipertensión, insomnio), pérdida de ingresos al evitar zonas rentables por miedo y el deterioro de las relaciones familiares debido a la distancia emocional o irritabilidad. Un conductor inseguro no solo pone en riesgo su vida, sino también su sustento y su hogar.
+
+**Conclusión: Mereces llegar a casa. Siempre.**
+Carlos trabaja de noche para que sus hijos tengan un futuro mejor. No debería tener que elegir entre el ingreso y su seguridad; tampoco tú. La tecnología ya existe para que cada turno nocturno en Lima sea más seguro, más inteligente y menos solitario. Solo falta que esté en tus manos. RutaSegura AI fue construida pensando en conductores como Carlos: personas reales, que conocen el miedo y que merecen regresar a casa tranquilos.`,
+},
   {
     id: '6',
     slug: 'comunidad-taxistas',
