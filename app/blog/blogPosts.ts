@@ -254,5 +254,89 @@ Carlos trabaja de noche para que sus hijos tengan un futuro mejor. No debería t
 - Foros de discussion
 
 Juntos somos más fuertes. La comunidad es tu red de seguridad más valiosa.`,
-  }
+  },
+  {
+  id: '7', // Puedes cambiar el ID según tu correlativo
+  slug: 'banderas-rojas-pasajeros-pedidos-sospechosos',
+  title: 'Banderas rojas: Cómo identificar pasajeros o pedidos sospechosos antes de iniciar el viaje',
+  summary: 'Aprende a reconocer perfiles falsos, cambios de ruta y actitudes evasivas para prevenir situaciones de riesgo antes de iniciar un servicio.',
+  content: `Tu instinto es una gran herramienta, pero la prevención lo es todo. Como conductor de taxi por aplicativo, la decisión más importante que tomas cada noche no es qué ruta seguir, sino a quién decides subir a tu vehículo. Aprender a leer las "banderas rojas" antes de aceptar o iniciar un servicio puede ser la diferencia entre una noche tranquila y una situación de riesgo.
+
+Presta atención a estas señales de alerta antes de dar luz verde a un viaje:
+
+- **Perfiles incompletos o recién creados:** Un usuario sin foto de perfil, con un nombre extraño y que tiene una cuenta creada recientemente o con muy pocos viajes, es el primer motivo para estar alerta. Aunque puede ser un usuario nuevo y legítimo, el riesgo estadístico es mayor.
+- **Puntos de recojo en zonas críticas:** Si la solicitud es en una avenida principal pero el pasajero te pide por mensaje que ingreses a una calle paralela oscura, ten cuidado. Las emboscadas suelen aprovechar lugares sin salida o de poca iluminación. Si el punto de recojo no te da confianza al llegar, no te detengas y cancela.
+- **Cambios de ruta repentinos:** Si el usuario sube y, antes de arrancar o a los pocos metros, te dice "amigo, vamos a recoger a alguien más en otra calle" o cambia radicalmente el destino a una zona considerada peligrosa, tienes derecho a negarte. Los cambios de planes de última hora son una táctica común para desviar al conductor.
+- **Actitud evasiva o nerviosa:** Al momento de confirmar al pasajero, mantén las puertas con seguro y baja la ventana solo unos centímetros para preguntar el nombre. Si notas a la persona demasiado nerviosa, mirando hacia todos lados, o si aparecen repentinamente más personas de las indicadas en la app, confía en tu instinto y aléjate del lugar.
+
+**El poder de decir "No":** Tu seguridad no es negociable. Si algo no se siente bien desde el momento en que suena la solicitud, no la aceptes. Utiliza la tecnología a tu favor, evalúa la información y maneja con tranquilidad.`,
+},
+{
+  id: '8',
+  slug: 'como-actuar-durante-despues-asalto-conductores',
+  title: 'Protocolo de crisis: Cómo actuar durante y después de un intento de asalto',
+  summary: 'Una guía psicológica y táctica sobre el manejo de la calma en situaciones límite y los pasos legales y emocionales a seguir post-incidente.',
+  content: `Por más prevención, tecnología y redes de apoyo que utilices, el riesgo cero no existe en el turno noche. Enfrentar un asalto es una de las situaciones más difíciles y estresantes que puede vivir un conductor. En ese momento de alta tensión, saber exactamente cómo reaccionar no solo protege tu vida, sino que determina qué tan rápido podrás recuperarte del impacto.
+
+Mantener la cabeza fría cuando estás bajo amenaza es sumamente complejo, pero recordar este protocolo de crisis puede marcar la diferencia entre una pérdida material y una tragedia irreversible.
+
+Aquí te mostramos los pasos clave para proteger tu integridad durante el evento y cómo proceder en las horas posteriores:
+
+**1. Durante el asalto: La regla de oro es la supervivencia**
+Tu vehículo, tus herramientas de trabajo, tus celulares y las ganancias del día se pueden recuperar; tu vida no. Si eres interceptado o amenazado por un pasajero, asume los siguientes compromisos contigo mismo:
+- **Mantén las manos visibles:** Coloca las manos sobre el timón o en un lugar donde el asaltante pueda verlas. Los movimientos bruscos o meter la mano al bolsillo de forma imprevista pueden ser malinterpretados como un intento de defensa.
+- **Evita el contacto visual directo:** Mirar fijamente a los ojos del agresor puede ser percibido como un desafío o una señal de que estás memorizando su rostro para denunciarlo, lo que suele aumentar su nivel de violencia.
+- **Obedece y avisa antes de moverte:** Si te piden el celular o la billetera, asiente y avisa con voz calmada lo que vas a hacer: *"Voy a desabrocharme el cinturón"* o *"El dinero está en la guantera"*. 
+- **No intentes ser el héroe:** No persigas a los delincuentes ni intentes enfrentarlos físicamente, especialmente si portan armas de fuego o blancas.
+
+**2. Inmediatamente después: Busca un entorno seguro**
+Una vez que los delincuentes se hayan alejado, no te quedes varado en el lugar del incidente. Tu prioridad inmediata es salir de la zona de peligro.
+- Conduce con cuidado hacia el punto iluminado más cercano: un grifo, una comisaría, una base de Serenazgo o una avenida con alta circulación de personas.
+- Respira profundo para intentar bajar las revoluciones del cuerpo y estabilizar tu ritmo cardíaco antes de realizar cualquier llamada.
+
+**3. El protocolo de reporte técnico y legal**
+Una vez a salvo, activa la cadena de alertas para proteger tus cuentas y tu patrimonio:
+- **Bloquea tus tarjetas y aplicativos:** Llama a tus bancos o utiliza el celular de un tercero de confianza para bloquear tus cuentas bancarias, billeteras digitales (Yape/Plin) y, sobre todo, tus cuentas de las aplicaciones de taxi o delivery para evitar que suplanten tu identidad.
+- **Reporta a la central y a tu comunidad:** Notifica el hecho en los canales de RutaSegura AI o en tus grupos de apoyo para que otros compañeros eviten la zona y estén alertas si ven tu vehículo (en caso de robo de la unidad).
+- **Sienta la denuncia policial:** Acude a la comisaría del sector. Registrar la denuncia es indispensable para activar los seguros del vehículo, bloquear de forma definitiva el IMEI de los celulares robados y dejar un precedente legal.
+
+**4. El día después: No descuides el impacto emocional**
+El asalto termina en unos minutos, pero el impacto psicológico puede durar semanas. Muchos conductores intentan regresar a trabajar al día siguiente para recuperar lo perdido, ignorando que el cerebro sigue en estado de alerta.
+- **Reconoce el trauma:** Es normal sentir temblores, insomnio, rabia, ganas de llorar o un miedo intenso a volver a subir pasajeros. No reprimas estas emociones ni te sientas débil por experimentarlas.
+- **Busca apoyo:** Habla de lo sucedido con tu familia, tus compañeros más cercanos o busca orientación psicológica. El estrés postraumático acumulado altera tus reflejos y tu capacidad de tomar decisiones correctas en la ruta, poniendo en riesgo tu seguridad a largo plazo.
+
+**Conclusión: Volver a casa es la única meta**
+Un turno exitoso no se mide por cuánto dinero acumulaste en la billetera, sino por el hecho de abrir la puerta de tu casa y abrazar a los tuyos por la mañana. Saber perder un objeto material a cambio de preservar tu vida es, irónicamente, la decisión más inteligente y valiente que un conductor nocturno puede tomar.`,
+},
+{
+  id: '9', // Puedes cambiar el ID según tu correlativo
+  slug: 'por-que-conductores-necesitan-informacion-tiempo-real',
+  title: '¿Por qué los conductores necesitan información de seguridad en tiempo real?',
+  summary: 'Cómo la tecnología y los datos actualizados ayudan a prevenir riesgos, reducir la incertidumbre y tomar mejores decisiones durante los recorridos nocturnos.',
+  content: `Sabemos que conducir de noche implica enfrentar situaciones que pueden cambiar en cuestión de minutos. Una calle que parece tranquila puede convertirse en una zona de riesgo debido a un incidente reciente, poca iluminación o la presencia de personas sospechosas.
+
+Para muchos conductores de taxi y delivery, la experiencia es una herramienta valiosa, pero no siempre es suficiente para conocer lo que está ocurriendo en cada punto de la ciudad. Por eso, contar con información actualizada puede marcar una gran diferencia al momento de aceptar un viaje o elegir una ruta.
+
+En Ruta Segura AI creemos que la mejor manera de reducir riesgos es tomar decisiones basadas en información. No se trata de generar miedo, sino de brindar herramientas que permitan conducir con mayor confianza y tranquilidad.
+
+A continuación, te mostramos por qué el acceso a información de seguridad en tiempo real puede convertirse en uno de los mejores aliados para los conductores nocturnos.
+
+**¿Por qué la información en tiempo real es importante?**
+La ciudad cambia constantemente. Durante la noche pueden ocurrir incidentes, bloqueos de vías, situaciones sospechosas o eventos que alteren la seguridad de determinadas zonas. Si un conductor no cuenta con esa información, es más probable que se exponga innecesariamente a situaciones de riesgo. Tener acceso a datos actualizados permite anticiparse a posibles problemas y elegir alternativas más seguras antes de iniciar un recorrido.
+
+**Ventajas clave de estar informado:**
+
+- **1. Permite identificar zonas de riesgo antes de llegar:** Muchas veces los conductores descubren que una zona es peligrosa cuando ya se encuentran dentro de ella. Esto reduce el tiempo de reacción y aumenta la vulnerabilidad. *Beneficio:* Recibir alertas anticipadas ayuda a evaluar si es conveniente continuar por la misma ruta o buscar una alternativa más segura.
+- **2. Ayuda a tomar mejores decisiones durante el trayecto:** No todos los riesgos son permanentes. Algunas situaciones pueden aparecer de forma repentina y desaparecer horas después. *Beneficio:* Contar con información actualizada permite adaptar el recorrido según las condiciones reales del momento.
+- **3. Reduce la incertidumbre al aceptar un servicio:** Uno de los mayores desafíos para los conductores nocturnos es no saber con certeza qué encontrarán en el destino o durante el trayecto. *Beneficio:* Disponer de información sobre las condiciones de seguridad genera mayor confianza antes de aceptar una carrera.
+- **4. Facilita la planificación de rutas más seguras:** Elegir la ruta más corta no siempre es la mejor opción. En algunos casos, una vía alternativa puede ofrecer mejores condiciones de seguridad. *Beneficio:* La información en tiempo real ayuda a equilibrar eficiencia y protección durante cada recorrido.
+- **5. Complementa la experiencia del conductor:** La experiencia sigue siendo fundamental, pero incluso los conductores más experimentados pueden encontrarse con situaciones inesperadas. *Beneficio:* Combinar experiencia con tecnología permite tomar decisiones más informadas y reducir riesgos.
+- **6. Favorece la prevención antes que la reacción:** Cuando ocurre una emergencia, el margen de acción suele ser limitado. Por eso, la prevención es una de las herramientas más efectivas para mejorar la seguridad. *Beneficio:* Conocer posibles riesgos con anticipación permite actuar antes de que aparezca un problema.
+- **7. Contribuye a una conducción más tranquila:** Trabajar con incertidumbre puede generar tensión y preocupación constante, especialmente durante los turnos nocturnos. *Beneficio:* Tener acceso a información confiable ayuda a conducir con mayor tranquilidad y confianza.
+
+**Más información, más seguridad**
+La seguridad no depende únicamente de la experiencia o de la suerte. También depende de la calidad de la información disponible en cada momento.
+
+Por eso, Ruta Segura AI busca utilizar inteligencia artificial y datos en tiempo real para ayudar a los conductores a identificar posibles riesgos, planificar rutas más seguras y tomar mejores decisiones durante cada trayecto. Porque cuando se trata de seguridad, estar informado puede marcar la diferencia entre reaccionar ante un problema o evitarlo desde el principio.`,
+}
 ];

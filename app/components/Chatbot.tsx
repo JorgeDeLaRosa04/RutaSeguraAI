@@ -114,16 +114,13 @@ export function Chatbot() {
       )}
 
       <div className="flex flex-col items-center gap-3">
-        <Image src="/images/chatbot.png" alt="Chatbot" width={80} height={80} className="rounded-full" />
-        {!open && (
-          <button
-            onClick={() => setOpen(true)}
-            className="inline-flex items-center justify-center rounded-full bg-safe px-5 py-3 text-sm font-semibold text-slate-950 shadow-2xl transition hover:bg-emerald-400"
-            aria-label="Abrir chat"
-          >
-            ¿Necesitas ayuda?
-          </button>
-        )}
+        <button
+          onClick={() => setOpen(true)}
+          className="rounded-full bg-white p-3 shadow-2xl transition hover:shadow-[0_0_0_16px_rgba(15,23,42,0.08)]"
+          aria-label="Abrir chat"
+        >
+          <Image src="/images/chatbot.png" alt="Chatbot" width={80} height={80} className="rounded-full" />
+        </button>
       </div>
     </div>
   );

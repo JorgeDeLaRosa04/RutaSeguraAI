@@ -1,6 +1,7 @@
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { blogPosts } from './blogPosts';
 import Link from 'next/link';
+import { Chatbot } from '../components/Chatbot';
 
 export default function BlogPage() {
   return (
@@ -38,6 +39,7 @@ export default function BlogPage() {
           </article>
         ))}
       </div>
+      <Chatbot />
     </div>
   );
 }
