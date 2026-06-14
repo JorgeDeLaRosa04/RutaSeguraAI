@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const menuItems = [
   { label: 'Inicio', href: '/#inicio' },
-  { label: 'Score de Seguridad', href: '/score' },
+  { label: 'Test gratuito', href: '/score' },
   { label: 'Blog', href: '/blog' }
 ];
 
